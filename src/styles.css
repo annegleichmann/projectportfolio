@@ -21,6 +21,50 @@ h1 {
   text-align: center;
 }
 
+.frontpage h2 {
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.buttons-frontpage {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.btn-branding {
+  background: var(--branding-primary-color);
+  border-radius: 4px;
+  color: var(--branding-secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  background: var(--branding-secondary-color);
+  color: var(--branding-primary-color);
+}
+
+.btn-branding-outline {
+  background: var(--branding-secondary-color);
+  color: var(--branding-primary-color);
+  border: 1px solid var(--branding-primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-primary-color);
+  color: var(--branding-secondary-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
 .about-page {
   border: solid 10px var(--branding-tertiary-color);
   padding: 160px 20px 220px 20px;
@@ -29,4 +73,24 @@ h1 {
 .portfolio-page {
   border: solid 10px var(--branding-primary-color);
   padding: 160px 20px 220px 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .frontpage {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
