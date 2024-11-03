@@ -1,1 +1,32 @@
+:root {
+  --heading-font-family: Sedgwick Ave;
+  --font-family: Rajdhani;
+  --branding-primary-color: #16687a;
+  --branding-secondary-color: #ffe100;
+  --branding-tertiary-color: #dc0073;
+}
 
+p {
+  font-size: 28px;
+}
+h1 {
+  font-family: Sedgwick Ave;
+  font-size: 96px;
+}
+
+.frontpage {
+  border: solid 10px var(--branding-secondary-color);
+  color: var(--branding-primary-color);
+  padding: 160px 20px 220px 20px;
+  text-align: center;
+}
+
+.about-page {
+  border: solid 10px var(--branding-tertiary-color);
+  padding: 160px 20px 220px 20px;
+}
+
+.portfolio-page {
+  border: solid 10px var(--branding-primary-color);
+  padding: 160px 20px 220px 20px;
+}
