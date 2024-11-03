@@ -6,6 +6,10 @@
   --branding-tertiary-color: #dc0073;
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   font-size: 16px;
   font-weight: normal;
@@ -14,6 +18,7 @@ p {
 h1 {
   font-family: Sedgwick Ave;
   font-size: 96px;
+  text-align: center;
 }
 
 .frontpage {
@@ -27,6 +32,10 @@ h1 {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.frontpage-img {
+  border: solid 8px var(--branding-tertiary-color);
 }
 
 .buttons-frontpage {
@@ -65,6 +74,7 @@ h1 {
 
 .project-description {
   padding: 120px 60px;
+  border: solid 8px var(--branding-primary-color);
 }
 
 .about-page {
@@ -77,10 +87,22 @@ h1 {
   padding: 160px 20px 220px 20px;
 }
 
+.selfie {
+  border: 2px solid var(--branding-secondary-color);
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.about-section-content {
+  text-align: center;
+  margin: 50px 20px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 2;
+    margin-top: 0px;
   }
 
   h2 {
@@ -92,7 +114,11 @@ h1 {
   }
 
   .project-description {
-    padding: 0;
+    padding: 30px 10px;
     text-align: center;
+  }
+
+  .selfie {
+    margin-top: 20px;
   }
 }
