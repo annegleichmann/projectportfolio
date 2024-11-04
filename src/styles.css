@@ -89,9 +89,31 @@ h1 {
   padding: 160px 20px 220px 20px;
 }
 
+.about-page h1 {
+  color: var(--branding-secondary-color);
+  font-family: Sedgwick Ave;
+  font-size: 96px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-page h2,
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-section-content {
+  text-align: center;
+  margin: 50px 20px 80px 20px;
+}
+
 .portfolio-page {
   border: solid 10px var(--branding-primary-color);
-  padding: 160px 20px 220px 20px;
+}
+
+.portfolio-page h1 {
+  color: var(--branding-tertiary-color);
 }
 
 .pictureA {
@@ -118,11 +140,6 @@ h1 {
   padding: 5px;
 }
 
-.about-page-content {
-  text-align: center;
-  margin: 50px 20px;
-}
-
 .content-container {
   text-align: center;
   padding: 30px 20px;
@@ -130,18 +147,33 @@ h1 {
 .content {
   display: block;
   justify-items: center;
-  padding: 80px;
+  margin: 30px;
+  padding: 50px;
+}
+
+.contact-page {
+  border: solid 10px var(--branding-secondary-color);
+  color: var(--branding-primary-color);
+  padding: 160px 20px 220px 20px;
+  text-align: center;
+}
+
+.mail-me {
+  border: solid 5px var(--branding-tertiary-color);
+  color: var(--branding-primary-color);
+  padding: 50px;
+  margin: 80px 130px;
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 54px;
     line-height: 2;
     margin-top: 0px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 24px;
   }
 
   .frontpage {
