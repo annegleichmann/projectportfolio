@@ -16,6 +16,11 @@ p {
   font-weight: normal;
   line-height: 30px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
 h1 {
   font-family: Sedgwick Ave;
   font-size: 96px;
