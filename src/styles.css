@@ -40,6 +40,12 @@ nav {
   padding: 20px 0;
 }
 
+nav a {
+  text-decoration: none;
+  color: var(--branding-primary-color);
+  transition: all 100ms ease-in-out;
+}
+
 nav ul {
   padding: 0;
   margin: 0;
@@ -52,14 +58,12 @@ nav li {
   margin-left: 15px;
 }
 
-nav a {
-  text-decoration: none;
-  color: var(--branding-primary-color);
-  transition: all 100ms ease-in-out;
-}
-
 nav a:hover {
   color: var(--branding-secondary-color);
+}
+
+nav li:active {
+  color: var(--branding-tertiary-color);
 }
 
 .frontpage {
@@ -230,10 +234,6 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--branding-secondary-color);
   background: var(--branding-color);
-}
-
-.active {
-  color: var(--branding-tertiary-color);
 }
 
 @media (max-width: 900px) {
