@@ -62,10 +62,6 @@ nav a:hover {
   color: var(--branding-secondary-color);
 }
 
-nav li:active {
-  color: var(--branding-tertiary-color);
-}
-
 .frontpage {
   border: solid 10px var(--branding-secondary-color);
   color: var(--branding-primary-color);
@@ -264,5 +260,10 @@ footer .social-links a:hover {
 
   .selfie {
     margin-top: 20px;
+  }
+
+  .mail-me {
+    font-size: 14px;
+    margin: 10px;
   }
 }
