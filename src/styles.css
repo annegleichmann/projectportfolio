@@ -28,6 +28,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .logo {
   max-height: 50px;
 }
@@ -54,9 +58,12 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-nav li:active {
+nav a:hover {
   color: var(--branding-secondary-color);
+}
+
+nav li:active {
+  color: var(--branding-tertiary-color);
 }
 
 .frontpage {
@@ -196,6 +203,43 @@ h3 {
   margin: 80px 130px;
 }
 
+footer .e-mail-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .e-mail-link:hover {
+  color: var(--branding-tertiary-color);
+}
+
+footer .contact-box {
+  border: solid 8px var(--branding-secondary-color);
+  padding: 30px 120px;
+  margin: 50px 5px;
+  border-radius: 10px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--branding-secondary-color);
+  background: var(--branding-color);
+}
+
+.active {
+  color: var(--branding-tertiary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 54px;
@@ -206,7 +250,9 @@ h3 {
   h2 {
     font-size: 24px;
   }
-
+  h4 {
+    font-size: 26px;
+  }
   .frontpage {
     padding: 80px 20px;
   }
